@@ -1,0 +1,35 @@
+{
+	"users": [
+		{
+			"username": "Dan_Blair",
+			"email": "blazelitanui@gmail.com",
+			"password": "password2233",
+			"posts": [],
+			"comments": [],
+			"likedPosts": [],
+			"dislikedPosts": []
+		},
+		{
+			"username": "TheOneSockWonder",
+			"email": "jane@example.com",
+			"password": "passmyword123",
+			"posts": [],
+			"comments": [],
+			"likedPosts": [],
+			"dislikedPosts": []
+		}
+	],
+	"posts": [
+		{
+			"username": "Dan_Blair",
+			"type": "blog",
+			"title": "!!!Thanks for using this!!!",
+			"content": "This is a recycled school project but great to help plan, feel free to use it as a general message board around the get together as well",
+			"likes": 420,
+			"dislikes": 69,
+			"comments": []
+		}
+	],
+	"comments": [
+	]
+}
