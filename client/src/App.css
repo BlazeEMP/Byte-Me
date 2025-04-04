@@ -19,9 +19,19 @@
   transition: background 0.3s ease-in-out;
 }
 
+.custom-menu-item .navbar {
+  background-color: var(--secondary);
+  color: var(--primary);
+  transition: background 0.3s ease-in-out;
+}
+
 .custom-menu-item:hover {
   background: var(--quaternary) !important;
-  color: var(--primary) !important;
+  color: var(--secondary) !important;
+}
+
+.custom-menu-item a:hover {
+  color: var(--tertiary) !important;
 }
 
 .custom-menu-item button {

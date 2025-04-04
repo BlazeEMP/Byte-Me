@@ -25,7 +25,7 @@ const PostDisplay: React.FC = () => {
 
 	// retrieve all the posts for display
 	const { data, loading, error } = useQuery(QUERY_GET_POSTS);
-	
+
 	if (!loading) {
 		if (data.getPosts.length !== 0 && data.getPosts !== posts) {
 			setPosts(data.getPosts);
@@ -42,25 +42,21 @@ const PostDisplay: React.FC = () => {
 			<Row gutter={[16, 16]}>
 				{posts.map((loadingPost) => (
 					<Col xs={24} sm={24} md={12} lg={8} xl={8} key={loadingPost._id}>
-						<Card
-							style={{ height: 700, 
-								display: 'flex', 
-								flexDirection: 'column', 
-								border: 'none', 
-								background: 'transparent',
-								boxShadow: 'none',
-								overflow: 'hidden', 
-							}}
-						>
-							<div 
-								style={{
-									height: '650px',
-									overflowY: 'auto',
-									padding: '10px',
-								}}
-							>
-
-							<Post post={loadingPost} /> {/* Pass post data to Post Component */}
+						<Card style={{
+							height: 700,
+							display: 'flex',
+							flexDirection: 'column',
+							border: 'none',
+							background: 'transparent',
+							boxShadow: 'none',
+							overflow: 'hidden'
+						}}>
+							<div style={{
+								height: '650px',
+								overflowY: 'auto',
+								padding: '10px'
+							}}>
+								<Post post={loadingPost} /> {/* Pass post data to Post Component */}
 							</div>
 						</Card>
 					</Col>

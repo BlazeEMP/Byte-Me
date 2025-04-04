@@ -12,7 +12,7 @@ const NavBar = () => {
 
 			<Menu.Item
 				key="posts"
-				className="custom-menu-item"
+				className="custom-menu-item navbar"
 			>
 				<NavLink to="/collection" style={{ padding: "5px", display: "block", color: "var(--primary)", fontSize: "1.5rem" }}>
 					Posts
@@ -21,7 +21,7 @@ const NavBar = () => {
 
 			<Menu.Item
 				key="new-post"
-				className="custom-menu-item"
+				className="custom-menu-item navbar"
 			>
 				<NavLink to="/form" style={{ padding: "5px", display: "block", color: "var(--primary)", fontSize: "1.5rem" }}>
 					New Post
@@ -30,7 +30,7 @@ const NavBar = () => {
 
 			<Menu.Item
 				key="logout"
-				className="custom-menu-item"
+				className="custom-menu-item navbar"
 				onClick={auth.logout}
 			>
 				<NavLink to="/" style={{ padding: "5px", display: "block", color: "var(--primary)", fontSize: "1.5rem" }}>

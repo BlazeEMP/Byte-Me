@@ -8,15 +8,6 @@
 			"comments": [],
 			"likedPosts": [],
 			"dislikedPosts": []
-		},
-		{
-			"username": "TheOneSockWonder",
-			"email": "jane@example.com",
-			"password": "passmyword123",
-			"posts": [],
-			"comments": [],
-			"likedPosts": [],
-			"dislikedPosts": []
 		}
 	],
 	"posts": [
@@ -28,8 +19,15 @@
 			"likes": 420,
 			"dislikes": 69,
 			"comments": []
+		},
+		{
+			"username": "TheOneSockWonder",
+			"type": "blog",
+			"title": "FIRST",
+			"content": "I WAS FIRST IM BRINGING LIQUOR",
+			"likes": 0,
+			"dislikes": 0,
+			"comments": []
 		}
-	],
-	"comments": [
 	]
 }
